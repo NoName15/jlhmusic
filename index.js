@@ -59,9 +59,6 @@ client.on('message', message => {
         if(!argresult) return message.channel.send('`online`, `DND(Do not Distrub),` `idle`, `invisible(Offline)` :notes: أختر أحد الحالات');
         client.user.setStatus(argresult);
 
-    }else if (message.content.startsWith(prefix + 'join')) {
-		if (!message.member.voiceChannel) return message.reply('**Sorry,youre not on a voice channel**');
-		message.member.voiceChannel.join().then(message.react('✅'));
 
   });
 
@@ -405,4 +402,4 @@ client.on('message', message => {
     }
 });
 
-client.login('NTA0NjkzMjk0Mjc0NDQ1MzEz.DrJZUw.fvfMkk0CVIK4yCy-F-ho1uaYhZA');
+client.login(process.env.BOT_TOKEN);

@@ -60,6 +60,8 @@ client.on('message', message => {
         client.user.setStatus(argresult);
 
 
+    }
+
   });
 
 client.on('message', async msg =>{
@@ -359,7 +361,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~ Music~~__ By: RO7#9078
+__~~Error S Music~~__ By: RO7#9078
 ╔[❖════════════❖]╗
              Prefix = ' ! '
 ╚[❖════════════❖]╝

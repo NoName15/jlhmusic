@@ -27,7 +27,7 @@ const prefix = "1";
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-    client.user.setGame(`Error Station / !help`,`www.twitch.tv/v5bz`);
+    client.user.setGame(`1help`,`www.twitch.tv/v5bz`);
   });
 
 const devs = ['382593940165099530','480407581085532180'];
@@ -363,22 +363,22 @@ client.on('message', message => {
  **
 __~~Error S Music~~__ By: RO7#9078
 ╔[❖════════════❖]╗
-             Prefix = ' ! '
+             Prefix = ' 1 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ !play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ !stop ➾ stop the song  توقف البوت نهائيا
+ ❖ 1play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 1stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ !np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ !queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ !skip ➾ skips a song تتجاوز اغنية
+ ❖ 1np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 1queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 1skip ➾ skips a song تتجاوز اغنية
  
- ❖ !resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ !pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ !join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ !disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ 1resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 1pause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 1join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
+ ❖ 1disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝

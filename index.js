@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "5";
 /////////////////////////
 ////////////////////////
 
@@ -361,31 +361,29 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~Error S Music~~__ By: RO7#9078
+By: RO7#9078
 ╔[❖════════════❖]╗
-             Prefix = ' 1 '
+             Prefix = ' 5 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 1play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 1stop ➾ stop the song  توقف البوت نهائيا
+ ❖ 5play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 5stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 1np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 1queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 1skip ➾ skips a song تتجاوز اغنية
+ ❖ 5np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 5queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 5skip ➾ skips a song تتجاوز اغنية
  
- ❖ 1resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 1pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 1join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 1disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ 5resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 5pause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 5join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
+ ❖ 5disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ !ping ➾ view my ping !  تشوف سرعة اتصال البوت
-==================================================================
-Server support: https://discord.gg/cUgYbEr   سيرفر السيبورت
-==================================================================
+ ❖ 5ping ➾ view my ping !  تشوف سرعة اتصال البوت
+
 `);
 
     }
